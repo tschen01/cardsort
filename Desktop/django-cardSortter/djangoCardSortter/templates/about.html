@@ -1,0 +1,67 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CardSort</title>
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link href="//fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  </head>
+  <body>
+    <div class="popup states display-none">
+      <div class="button close"><img src="{% static 'assets/reset-white.png' %}" alt="cross icon" class="icon"></div>
+      <div class="title">Saved states</div>
+      <div class="states"></div>
+    </div>
+    <div class="popup name display-none">
+      <div class="button close"><img src="{% static 'assets/reset-red.png' %}" alt="cross icon" class="icon"></div>
+      <input type="text" name="name" value="" placeholder="Give document a name">
+    </div>
+    <div id="header">
+      <div class="inner">
+        <img src="{% static 'assets/cards-white.png' %}" alt="open folder icon" class="icon">
+        <div id="title">CardSort</div>
+        <div id="menu">
+          <div class="button save"><img src="{% static 'assets/save-white.png' %}" alt="bookmark icon" class="icon">Save</div>
+          <div class="button open"><img src="{% static 'assets/folder-white.png' %}" alt="open folder icon" class="icon">Open</div>
+          <div class="button reset"><img src="{% static 'assets/reset-white.png' %}" alt="cross icon" class="icon">Reset</div>
+        </div>
+      </div>
+    </div>
+    <div id="screenlock"></div>
+    <div id="filler"></div>
+    <div id="name">
+    </div>
+    <div id="stack">
+      <span class="button add card">
+        <span class="icon">+</span>
+        <span>Create New Card</span>
+        <span class="input display-none"><textarea type="text" name="cardText"></textarea></span>
+      </span>
+    </div>
+    <div id="groups">
+    </div>
+    <div id="newGroup">
+      <span class="label">+ Create New Label</span>
+      <span class="input display-none"><input type="text" name="groupName"></span>
+    </div>
+    <div id="footer">
+			<div class="inner">Card-Sorting Web-App by Manad Mishra © <span id="year"></span> </div>
+		</div>
+  </body>
+  <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/jquery.color.min.js' %}"></script>
+  <script type="text/javascript"> 
+    window.onload = function() {
+       if (window.jQuery) {
+          alert('jQuery is loaded');
+       } else {
+          alert('jQuery is not loaded');
+    </script>
+  <script type="text/javascript" src="{% static 'js/interact.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/dragndrop.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/card.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/group.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/index.js' %}"></script>
+</html>
