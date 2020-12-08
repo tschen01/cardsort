@@ -19,8 +19,10 @@ from .import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^about/$', views.about)
+    url(r'^$', views.homepage),
+    url(r'^about/$', views.about, name = "about"),
+    url(r'^submit_card/$', views.submit_card)
+    # url(r'^thankyoupage/$', views.thankyoupage)
 ]
 
 urlpatterns += staticfiles_urlpatterns()
