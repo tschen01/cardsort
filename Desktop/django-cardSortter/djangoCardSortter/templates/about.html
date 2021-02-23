@@ -3,12 +3,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>CardSort</title>
+    <title>BYU</title>
     <link rel="icon" href="assets/favicon.png">
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
     <link href="//fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/piechart.css' %}"/>
   </head>
   <body>
+
+
+
     <div class="popup states display-none">
       <div class="button close"><img src="{% static 'assets/reset-white.png' %}" alt="cross icon" class="icon"></div>
       <div class="title">Saved states</div>
@@ -21,11 +25,18 @@
     <div id="header">
       <div class="inner">
         <img src="{% static 'assets/cards-white.png' %}" alt="open folder icon" class="icon">
-        <div id="title">CardSort</div>
-        <div id="menu">
-          <div class="button save"><img src="{% static 'assets/save-white.png' %}" alt="bookmark icon" class="icon">Save</div>
-          <div class="button open"><img src="{% static 'assets/folder-white.png' %}" alt="open folder icon" class="icon">Open</div>
-          <div class="button reset"><img src="{% static 'assets/reset-white.png' %}" alt="cross icon" class="icon">Reset</div>
+        <div style = "margin-right: 17em;" id="title">CardSort</div>
+        <p style = "display: contents; font-size: .8em;
+        font-weight: bold;"> Drag each card into a category. Click Show More Cards until you are done.
+        </p>
+        <div id="menu"> 
+          <!-- <div class="button submit"><img src="{% static 'assets/save-white.png' %}" alt="bookmark icon" class="icon">Submit</div> -->
+          <!-- <div class="button save"><img src="{% static 'assets/save-white.png' %}" alt="bookmark icon" class="icon">Save</div>
+          <div class="button open"><img src="{% static 'assets/folder-white.png' %}" alt="open folder icon" class="icon">Open</div> -->
+          <!-- <div class="button instructions"><img src="{% static 'assets/save-white.png' %}" alt="cross icon" class="icon">Instructions</div> -->
+          
+    <!-- Trigger/Open The Modal -->
+        <div id="myBtn" class="button"><img src="{% static 'assets/save-white.png' %}" alt="cross icon" class="icon">Instructions</div>
         </div>
       </div>
     </div>
@@ -33,32 +44,55 @@
     <div id="filler"></div>
     <div id="name">
     </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal" >
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="closing">&times;</span>
+        <p>Instructions</p>
+        <div>Step 1: Drag each card into a category. Click Show More Cards until you are done.</div>
+        <div>Step 2: Once you reach 100%, click submit</div>
+        <div>Step 3: Upon submitting for the first time, you will be redirected to the same place now with the Create Card Visible</div>
+        <div>Step 4: Create any new cards that wasn't already shown previously</div>
+        <div>Step 5: Click Submit again after you have made all the new cards and changes</div>
+      </div>
+    </div>
+
     <div id="stack">
-      <span class="button add card">
-        <span class="icon">+</span>
-        <span>Create New Card</span>
-        <span class="input display-none"><textarea type="text" name="cardText"></textarea></span>
-      </span>
+      <div id="cont1" style = "display: none;">
+        <span class="button add card">
+          <span class="icon">+</span>
+          <span>Create New Card</span>
+          <span class="input display-none"><textarea type="text" name="cardText"></textarea></span>
+        </span>
+      </div>
+      
     </div>
-    <div id="groups">
+    <div style = "position: absolute; right: 10px;">
+      <div class="progress-pie-color" id = "cardNumber" data-value ="10"></div>
+    <!-- <h3 style = "display: contents;">You've seen <span id="cardNumber"></span>% of the cards</h3> -->
+
     </div>
-    <div id="newGroup">
-      <span class="label">+ Create New Label</span>
-      <span class="input display-none"><input type="text" name="groupName"></span>
+
+      <button id="newButton" class="button more button-3d">Show more cards</button>
+
+
+    <div style = "margin-top: 2em;">
+      <div id="newGroup">
+        <span style = "font-size: x-large;">+ Create New Category</span>
+        <span class="input display-none"><input type="text" name="groupName"></span>
+      </div>
+      <div id="groups" style = "display: contents;">
+      </div>
     </div>
-    <div id="footer">
-			<div class="inner">Card-Sorting Web-App by Manad Mishra © <span id="year"></span> </div>
-		</div>
+    <button class="button submit red">Submit</button>
+    <!-- <div id="footer">
+      <div class="inner">Card-Sorting <span id="year"></span> </div>
+		</div> -->
   </body>
   <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/jquery.color.min.js' %}"></script>
-  <script type="text/javascript"> 
-    window.onload = function() {
-       if (window.jQuery) {
-          alert('jQuery is loaded');
-       } else {
-          alert('jQuery is not loaded');
-    </script>
   <script type="text/javascript" src="{% static 'js/interact.min.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/dragndrop.js' %}"></script>
   <script type="text/javascript" src="{% static 'js/card.js' %}"></script>

@@ -1,0 +1,657 @@
+[
+    {
+        "cards": [
+            {
+                "text": "relatives"
+            }, 
+            {
+                "text": "progeniture"
+            }, 
+            {
+                "text": "in-laws"
+            }, 
+            {
+                "text": "kin"
+            }, 
+            {
+                "text": "kindred"
+            }, 
+            {
+                "text": "kinship"
+            }, 
+            {
+                "text": "kinfolk"
+            }, 
+            {
+                "text": "grandma"
+            }, 
+            {
+                "text": "grandmother"
+            }, 
+            {
+                "text": "granny"
+            }, 
+            {
+                "text": "great grandmother"
+            }, 
+            {
+                "text": "great aunt"
+            }, 
+            {
+                "text": "buddy"
+            }, 
+            {
+                "text": "adolescent"
+            }
+        ], 
+        "name": "Child"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "sisterhood"
+            }, 
+            {
+                "text": "sisterly"
+            }, 
+            {
+                "text": "son-in-law"
+            }, 
+            {
+                "text": "progenitor"
+            }, 
+            {
+                "text": "roommate"
+            }, 
+            {
+                "text": "mummy"
+            }, 
+            {
+                "text": "nephew"
+            }, 
+            {
+                "text": "niece"
+            }, 
+            {
+                "text": "offspring"
+            }, 
+            {
+                "text": "pa"
+            }, 
+            {
+                "text": "pal"
+            }, 
+            {
+                "text": "papa"
+            }, 
+            {
+                "text": "paternal"
+            }, 
+            {
+                "text": "posterity"
+            }, 
+            {
+                "text": "kinsperson"
+            }, 
+            {
+                "text": "hun"
+            }, 
+            {
+                "text": "child"
+            }, 
+            {
+                "text": "babe"
+            }, 
+            {
+                "text": "adoptive father"
+            }, 
+            {
+                "text": "ally"
+            }
+        ], 
+        "name": "Friend"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "step daughter"
+            }, 
+            {
+                "text": "step sister"
+            }, 
+            {
+                "text": "step mother"
+            }, 
+            {
+                "text": "supervisor"
+            }, 
+            {
+                "text": "sis"
+            }, 
+            {
+                "text": "sister"
+            }, 
+            {
+                "text": "sidekick"
+            }, 
+            {
+                "text": "preteen"
+            }, 
+            {
+                "text": "identical twin"
+            }, 
+            {
+                "text": "guru"
+            }, 
+            {
+                "text": "grandparent"
+            }, 
+            {
+                "text": "grandpa"
+            }, 
+            {
+                "text": "couple"
+            }, 
+            {
+                "text": "children"
+            }, 
+            {
+                "text": "better half"
+            }, 
+            {
+                "text": "adoptive mother"
+            }, 
+            {
+                "text": "bro"
+            }, 
+            {
+                "text": "bride"
+            }
+        ], 
+        "name": "Grandchild"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "sweety"
+            }, 
+            {
+                "text": "sweetheart"
+            }, 
+            {
+                "text": "step sis"
+            }, 
+            {
+                "text": "stepbro"
+            }, 
+            {
+                "text": "stepchildren"
+            }, 
+            {
+                "text": "stepchild"
+            }, 
+            {
+                "text": "sister-in-law"
+            }, 
+            {
+                "text": "infant"
+            }, 
+            {
+                "text": "half brother"
+            }, 
+            {
+                "text": "guardian"
+            }, 
+            {
+                "text": "grandparents"
+            }, 
+            {
+                "text": "grandson"
+            }, 
+            {
+                "text": "great granddaughter"
+            }, 
+            {
+                "text": "cousin"
+            }, 
+            {
+                "text": "chum"
+            }, 
+            {
+                "text": "bosom buddy"
+            }, 
+            {
+                "text": "advisor"
+            }, 
+            {
+                "text": "brotherly"
+            }
+        ], 
+        "name": "Grandparent"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "uncle"
+            }, 
+            {
+                "text": "younger brother"
+            }, 
+            {
+                "text": "well-wisher"
+            }, 
+            {
+                "text": "stepdad"
+            }, 
+            {
+                "text": "stepson"
+            }, 
+            {
+                "text": "subordinate"
+            }, 
+            {
+                "text": "son"
+            }, 
+            {
+                "text": "sibling"
+            }, 
+            {
+                "text": "half sister"
+            }, 
+            {
+                "text": "in-law"
+            }, 
+            {
+                "text": "great grandfather"
+            }, 
+            {
+                "text": "great uncle"
+            }, 
+            {
+                "text": "great grandson"
+            }, 
+            {
+                "text": "great grandparents"
+            }, 
+            {
+                "text": "friends"
+            }, 
+            {
+                "text": "coworker"
+            }, 
+            {
+                "text": "clan"
+            }, 
+            {
+                "text": "ancestor"
+            }
+        ], 
+        "name": "Indirect Family"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "teenager"
+            }, 
+            {
+                "text": "teacher"
+            }, 
+            {
+                "text": "true love"
+            }, 
+            {
+                "text": "stepmom"
+            }, 
+            {
+                "text": "stepparent"
+            }, 
+            {
+                "text": "step father"
+            }, 
+            {
+                "text": "relative"
+            }, 
+            {
+                "text": "youth"
+            }, 
+            {
+                "text": "helpmate"
+            }, 
+            {
+                "text": "house"
+            }, 
+            {
+                "text": "juvenile"
+            }, 
+            {
+                "text": "girlfriend"
+            }, 
+            {
+                "text": "grampa"
+            }, 
+            {
+                "text": "grandchildren"
+            }, 
+            {
+                "text": "granddaughter"
+            }, 
+            {
+                "text": "crony"
+            }, 
+            {
+                "text": "consort"
+            }, 
+            {
+                "text": "boyfriend"
+            }, 
+            {
+                "text": "bridegroom"
+            }, 
+            {
+                "text": "boss"
+            }
+        ], 
+        "name": "Parent"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "teen"
+            }, 
+            {
+                "text": "toddler"
+            }, 
+            {
+                "text": "tween"
+            }, 
+            {
+                "text": "twin"
+            }, 
+            {
+                "text": "roomie"
+            }, 
+            {
+                "text": "schoolmate"
+            }, 
+            {
+                "text": "partner"
+            }, 
+            {
+                "text": "love"
+            }, 
+            {
+                "text": "master"
+            }, 
+            {
+                "text": "kith"
+            }, 
+            {
+                "text": "mate"
+            }, 
+            {
+                "text": "maternal"
+            }, 
+            {
+                "text": "menage"
+            }, 
+            {
+                "text": "mentor"
+            }, 
+            {
+                "text": "heir"
+            }, 
+            {
+                "text": "husband"
+            }, 
+            {
+                "text": "grandchild"
+            }, 
+            {
+                "text": "friend"
+            }, 
+            {
+                "text": "descendant"
+            }, 
+            {
+                "text": "faternal"
+            }, 
+            {
+                "text": "close"
+            }, 
+            {
+                "text": "brother"
+            }, 
+            {
+                "text": "aunt"
+            }
+        ], 
+        "name": "Relatives"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "younger sister"
+            }, 
+            {
+                "text": "teammate"
+            }, 
+            {
+                "text": "twin brother"
+            }, 
+            {
+                "text": "twin sister"
+            }, 
+            {
+                "text": "sib"
+            }, 
+            {
+                "text": "senior"
+            }, 
+            {
+                "text": "parent"
+            }, 
+            {
+                "text": "soul mate"
+            }, 
+            {
+                "text": "spouse"
+            }, 
+            {
+                "text": "lover"
+            }, 
+            {
+                "text": "honey"
+            }, 
+            {
+                "text": "hubby"
+            }, 
+            {
+                "text": "inherit"
+            }, 
+            {
+                "text": "kid"
+            }, 
+            {
+                "text": "grandfather"
+            }, 
+            {
+                "text": "dad"
+            }, 
+            {
+                "text": "elder brother"
+            }, 
+            {
+                "text": "clansperson"
+            }, 
+            {
+                "text": "family"
+            }, 
+            {
+                "text": "brother-in-law"
+            }, 
+            {
+                "text": "auntie"
+            }
+        ], 
+        "name": "Sibling"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "wife"
+            }, 
+            {
+                "text": "step brother"
+            }, 
+            {
+                "text": "siblings"
+            }, 
+            {
+                "text": "progeny"
+            }, 
+            {
+                "text": "mom"
+            }, 
+            {
+                "text": "mommy"
+            }, 
+            {
+                "text": "mother-in-law"
+            }, 
+            {
+                "text": "mum"
+            }, 
+            {
+                "text": "playmate"
+            }, 
+            {
+                "text": "mother"
+            }, 
+            {
+                "text": "heiress"
+            }, 
+            {
+                "text": "home"
+            }, 
+            {
+                "text": "daddy"
+            }, 
+            {
+                "text": "fam"
+            }, 
+            {
+                "text": "classmate"
+            }, 
+            {
+                "text": "cohort"
+            }, 
+            {
+                "text": "cognate"
+            }, 
+            {
+                "text": "associate"
+            }, 
+            {
+                "text": "baby"
+            }
+        ], 
+        "name": "Sig Other"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "lovely"
+            }, 
+            {
+                "text": "mentee"
+            }, 
+            {
+                "text": "love of my life"
+            }, 
+            {
+                "text": "ma"
+            }, 
+            {
+                "text": "mama"
+            }, 
+            {
+                "text": "manager"
+            }, 
+            {
+                "text": "kids"
+            }, 
+            {
+                "text": "junior"
+            }, 
+            {
+                "text": "darling"
+            }, 
+            {
+                "text": "elder sister"
+            }, 
+            {
+                "text": "close-knit"
+            }, 
+            {
+                "text": "colleague"
+            }, 
+            {
+                "text": "companion"
+            }, 
+            {
+                "text": "superior"
+            }, 
+            {
+                "text": "blood relatives"
+            }
+        ], 
+        "name": "Superior"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "inheritance"
+            }, 
+            {
+                "text": "extended family"
+            }, 
+            {
+                "text": "father-in-law"
+            }, 
+            {
+                "text": "fiancee"
+            }, 
+            {
+                "text": "folk"
+            }, 
+            {
+                "text": "folks"
+            }, 
+            {
+                "text": "forebears"
+            }, 
+            {
+                "text": "father"
+            }, 
+            {
+                "text": "daughter"
+            }, 
+            {
+                "text": "daughter-in-law"
+            }, 
+            {
+                "text": "dear"
+            }, 
+            {
+                "text": "dearest"
+            }, 
+            {
+                "text": "distant relatives"
+            }, 
+            {
+                "text": "aunty"
+            }
+        ], 
+        "name": "Work"
+    }
+]

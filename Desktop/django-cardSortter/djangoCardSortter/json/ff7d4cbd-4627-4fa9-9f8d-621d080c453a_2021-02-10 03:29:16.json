@@ -1,0 +1,114 @@
+[
+    {
+        "cards": [
+            {
+                "text": "blood relatives"
+            }, 
+            {
+                "text": "advisor"
+            }, 
+            {
+                "text": "aunt"
+            }, 
+            {
+                "text": "adoptive father"
+            }
+        ], 
+        "name": "Child"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "associate"
+            }, 
+            {
+                "text": "bro"
+            }, 
+            {
+                "text": "ancestor"
+            }, 
+            {
+                "text": "bosom buddy"
+            }
+        ], 
+        "name": "Friend"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "boss"
+            }, 
+            {
+                "text": "ally"
+            }, 
+            {
+                "text": "better half"
+            }, 
+            {
+                "text": "boyfriend"
+            }
+        ], 
+        "name": "Grandchild"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "adoptive mother"
+            }, 
+            {
+                "text": "babe"
+            }, 
+            {
+                "text": "superior"
+            }, 
+            {
+                "text": "aunty"
+            }
+        ], 
+        "name": "Grandparent"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "adolescent"
+            }, 
+            {
+                "text": "auntie"
+            }, 
+            {
+                "text": "bride"
+            }, 
+            {
+                "text": "bridegroom"
+            }, 
+            {
+                "text": "baby"
+            }
+        ], 
+        "name": "Indirect Family"
+    }, 
+    {
+        "cards": [], 
+        "name": "Parent"
+    }, 
+    {
+        "cards": [], 
+        "name": "Relatives"
+    }, 
+    {
+        "cards": [], 
+        "name": "Sibling"
+    }, 
+    {
+        "cards": [], 
+        "name": "Sig Other"
+    }, 
+    {
+        "cards": [], 
+        "name": "Superior"
+    }, 
+    {
+        "cards": [], 
+        "name": "Work"
+    }
+]

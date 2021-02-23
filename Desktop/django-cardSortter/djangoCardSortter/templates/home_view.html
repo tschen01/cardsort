@@ -1,0 +1,52 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BYU</title>
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link href="//fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+
+  </head>
+  <body>
+    <div class="popup states display-none">
+      <div class="button close"><img src="{% static 'assets/reset-white.png' %}" alt="cross icon" class="icon"></div>
+      <div class="title">Saved states</div>
+      <div class="states"></div>
+    </div>
+    <div class="popup name display-none">
+      <div class="button close"><img src="{% static 'assets/reset-red.png' %}" alt="cross icon" class="icon"></div>
+      <input type="text" name="name" value="" placeholder="Give document a name">
+    </div>
+    <div id="header">
+      <div class="inner">
+        <img src="{% static 'assets/cards-white.png' %}" alt="open folder icon" class="icon">
+        <div id="title">CardSort</div>
+        <div id="menu"> 
+          <a href= "{% url 'about' %}"> <div id = "delayButton" class="button" style="display: none;"><img src="{% static 'assets/save-white.png' %}" alt="bookmark icon" class="icon">Next</div> </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="filler"></div>
+    <div id="name">
+    </div>
+
+    <h1 class='intro'> Introduction </h1>
+
+    <div  id="player" class = 'intro'><iframe width="560" height="315" src="https://www.youtube.com/embed/xUPpG3JCx6I?autoplay=1" allow='autoplay' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <p id="display"></p>
+  </body>
+
+  <script type="text/javascript" src="{% static 'js/jquery.color.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/interact.min.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/dragndrop.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/card.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/group.js' %}"></script>
+  <script type="text/javascript" src="{% static 'js/index.js' %}"></script>
+  <script type="text/javascript">
+    $('#delayButton').delay(70000).show(0);   
+  </script>
+</html>

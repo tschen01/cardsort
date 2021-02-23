@@ -1,0 +1,64 @@
+[
+    {
+        "cards": [
+            {
+                "text": "ally"
+            }, 
+            {
+                "text": "asd"
+            }
+        ], 
+        "name": "Child"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "adolescent"
+            }, 
+            {
+                "text": "asd"
+            }
+        ], 
+        "name": "Friend"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "adoptive father"
+            }
+        ], 
+        "name": "Grandchild"
+    }, 
+    {
+        "cards": [], 
+        "name": "Grandparent"
+    }, 
+    {
+        "cards": [], 
+        "name": "Indirect Family"
+    }, 
+    {
+        "cards": [], 
+        "name": "Parent"
+    }, 
+    {
+        "cards": [], 
+        "name": "Relatives"
+    }, 
+    {
+        "cards": [], 
+        "name": "Sibling"
+    }, 
+    {
+        "cards": [], 
+        "name": "Sig Other"
+    }, 
+    {
+        "cards": [], 
+        "name": "Superior"
+    }, 
+    {
+        "cards": [], 
+        "name": "Work"
+    }
+]

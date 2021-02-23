@@ -1,0 +1,58 @@
+[
+    {
+        "cards": [], 
+        "name": "Child"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "123"
+            }
+        ], 
+        "name": "Friend"
+    }, 
+    {
+        "cards": [], 
+        "name": "Grandchild"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "ally"
+            }
+        ], 
+        "name": "Grandparent"
+    }, 
+    {
+        "cards": [], 
+        "name": "Indirect Family"
+    }, 
+    {
+        "cards": [], 
+        "name": "Parent"
+    }, 
+    {
+        "cards": [], 
+        "name": "Relatives"
+    }, 
+    {
+        "cards": [], 
+        "name": "Sibling"
+    }, 
+    {
+        "cards": [], 
+        "name": "Sig Other"
+    }, 
+    {
+        "cards": [], 
+        "name": "Superior"
+    }, 
+    {
+        "cards": [], 
+        "name": "Work"
+    }, 
+    {
+        "cards": [], 
+        "name": "test"
+    }
+]

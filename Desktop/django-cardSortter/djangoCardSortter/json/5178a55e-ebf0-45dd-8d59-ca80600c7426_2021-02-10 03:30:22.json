@@ -1,0 +1,120 @@
+[
+    {
+        "cards": [
+            {
+                "text": "boyfriend"
+            }, 
+            {
+                "text": "babe"
+            }, 
+            {
+                "text": "ally"
+            }, 
+            {
+                "text": "bro"
+            }, 
+            {
+                "text": "advisor"
+            }, 
+            {
+                "text": "superior"
+            }, 
+            {
+                "text": "aunty"
+            }, 
+            {
+                "text": "ytry"
+            }
+        ], 
+        "name": "Child"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "bride"
+            }, 
+            {
+                "text": "bosom buddy"
+            }, 
+            {
+                "text": "aunt"
+            }, 
+            {
+                "text": "adoptive mother"
+            }, 
+            {
+                "text": "associate"
+            }, 
+            {
+                "text": "adoptive father"
+            }, 
+            {
+                "text": "hi"
+            }
+        ], 
+        "name": "Friend"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "bridegroom"
+            }, 
+            {
+                "text": "blood relatives"
+            }, 
+            {
+                "text": "auntie"
+            }
+        ], 
+        "name": "Grandchild"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "boss"
+            }, 
+            {
+                "text": "adolescent"
+            }
+        ], 
+        "name": "Grandparent"
+    }, 
+    {
+        "cards": [
+            {
+                "text": "better half"
+            }, 
+            {
+                "text": "ancestor"
+            }, 
+            {
+                "text": "baby"
+            }
+        ], 
+        "name": "Indirect Family"
+    }, 
+    {
+        "cards": [], 
+        "name": "Parent"
+    }, 
+    {
+        "cards": [], 
+        "name": "Relatives"
+    }, 
+    {
+        "cards": [], 
+        "name": "Sibling"
+    }, 
+    {
+        "cards": [], 
+        "name": "Sig Other"
+    }, 
+    {
+        "cards": [], 
+        "name": "Superior"
+    }, 
+    {
+        "cards": [], 
+        "name": "Work"
+    }
+]
